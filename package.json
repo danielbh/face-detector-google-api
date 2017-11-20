@@ -12,7 +12,7 @@
     "node": ">=4.3.2"
   },
   "scripts": {
-    "start": "GOOGLE_APPLICATION_CREDENTIALS=credentionals.js node index.js daniel.jpg",
+    "start": "node index.js daniel.jpg",
     "lint": "samples lint",
     "pretest": "npm run lint",
     "test": "samples test run --cmd ava -- -T 1m --verbose system-test/*.test.js"
